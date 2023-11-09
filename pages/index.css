@@ -22,6 +22,7 @@
   background-size: cover;
 }
 
+/*---Nav---*/
 .nav {
   display: flex;
   position: relative;
@@ -57,6 +58,7 @@
   color: #000;
 }
 
+/*---Header---*/
 .header__title-info {
   display: flex;
   flex-direction: column;
@@ -133,6 +135,7 @@
   margin: 0 80px 40px 0;
 }
 
+/*---Recipes---*/
 .recipes {
   display: flex;
   position: relative;
@@ -193,7 +196,8 @@
   line-height: 30px;
 }
 
-/* .reservation {
+/* 
+.reservation {
   background-image: url(/images/background_reservation.svg);
   width: 1490px;
   height: 890px;
@@ -205,4 +209,5 @@
   width: 1490px;
   height: 890px;
   margin: 0;
-} */
+} 
+*/
