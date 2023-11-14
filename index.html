@@ -110,7 +110,65 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservas"></section>
+        <section class="reservation" id="reservas">
+          <div class="form">
+            <h2 class="reservation__title">Reservar uma mesa</h2>
+            <div class="reservation__form">
+              <form action="#" class="form__fieldset">
+                <label for="name" class="form__label">Nome *</label>
+                <input
+                  type="text"
+                  placeholder="  Nome"
+                  class="form__input"
+                  required
+                />
+
+                <label for="convidados" class="form__label"
+                  >Número de convidados *</label
+                >
+                <input
+                  type="number"
+                  name="numero"
+                  id=""
+                  placeholder="  1-8"
+                  class="form__input"
+                  required
+                />
+
+                <label for="data" class="form__label">Data & hora *</label>
+                <input
+                  type="datetime-local"
+                  name="data"
+                  id=""
+                  class="form__input"
+                />
+
+                <label for="email" class="form__label">Seu e-mail *</label>
+                <input
+                  type="email"
+                  name="email"
+                  id=""
+                  placeholder="  email@email.com"
+                  class="form__input"
+                />
+                <button class="form__button">
+                  <a href="#" class="text__button">Reservar uma mesa</a>
+                </button>
+                <div class="form__checkbox">
+                  <input
+                    type="checkbox"
+                    name="termos de uso"
+                    id=""
+                    class="input_box"
+                  />
+                  <label for="termos" class="form__label"
+                    >Eu concordo com os termos de uso</label
+                  >
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
         <section class="menu" id="menu"></section>
         <section class="about" id="contatos"></section>
       </main>
