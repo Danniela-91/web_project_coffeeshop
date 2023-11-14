@@ -114,16 +114,18 @@
           <div class="form">
             <h2 class="reservation__title">Reservar uma mesa</h2>
             <div class="reservation__form">
-              <form action="#" class="form__fieldset">
-                <label for="name" class="form__label">Nome *</label>
+              <form action="#" class="reservation__form form__fieldset">
+                <label for="name" class="reservation__form form__label"
+                  >Nome *</label
+                >
                 <input
                   type="text"
-                  placeholder="  Nome"
-                  class="form__input"
+                  placeholder="Nome"
+                  class="reservation__form form__input"
                   required
                 />
 
-                <label for="convidados" class="form__label"
+                <label for="convidados" class="reservation__form form__label"
                   >Número de convidados *</label
                 >
                 <input
@@ -131,37 +133,43 @@
                   name="numero"
                   id=""
                   placeholder="  1-8"
-                  class="form__input"
+                  class="reservation__form form__input"
                   required
                 />
 
-                <label for="data" class="form__label">Data & hora *</label>
+                <label for="data" class="reservation__form form__label"
+                  >Data & hora *</label
+                >
                 <input
                   type="datetime-local"
                   name="data"
                   id=""
-                  class="form__input"
+                  class="reservation__form form__input"
                 />
 
-                <label for="email" class="form__label">Seu e-mail *</label>
+                <label for="email" class="reservation__form form__label"
+                  >Seu e-mail *</label
+                >
                 <input
                   type="email"
                   name="email"
                   id=""
                   placeholder="  email@email.com"
-                  class="form__input"
+                  class="reservation__form form__input"
                 />
-                <button class="form__button">
-                  <a href="#" class="text__button">Reservar uma mesa</a>
+                <button class="reservation__form form__button">
+                  <a href="#" class="reservation__form text__button"
+                    >Reservar uma mesa</a
+                  >
                 </button>
-                <div class="form__checkbox">
+                <div class="reservation__form form__checkbox">
                   <input
                     type="checkbox"
                     name="termos de uso"
                     id=""
-                    class="input_box"
+                    class="reservation__form input_box"
                   />
-                  <label for="termos" class="form__label"
+                  <label for="termos" class="reservation__form form__label"
                     >Eu concordo com os termos de uso</label
                   >
                 </div>
