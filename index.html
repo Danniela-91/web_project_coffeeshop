@@ -114,64 +114,49 @@
           <div class="form">
             <h2 class="reservation__title">Reservar uma mesa</h2>
             <div class="reservation__form">
-              <form action="#" class="reservation__form form__fieldset">
-                <label for="name" class="reservation__form form__label"
-                  >Nome *</label
-                >
-                <input
-                  type="text"
-                  placeholder="Nome"
-                  class="reservation__form form__input"
-                  required
-                />
-
-                <label for="convidados" class="reservation__form form__label"
-                  >Número de convidados *</label
-                >
-                <input
-                  type="number"
-                  name="numero"
-                  id=""
-                  placeholder="  1-8"
-                  class="reservation__form form__input"
-                  required
-                />
-
-                <label for="data" class="reservation__form form__label"
-                  >Data & hora *</label
-                >
-                <input
-                  type="datetime-local"
-                  name="data"
-                  id=""
-                  class="reservation__form form__input"
-                />
-
-                <label for="email" class="reservation__form form__label"
-                  >Seu e-mail *</label
-                >
-                <input
-                  type="email"
-                  name="email"
-                  id=""
-                  placeholder="  email@email.com"
-                  class="reservation__form form__input"
-                />
-                <button class="reservation__form form__button">
-                  <a href="#" class="reservation__form text__button"
-                    >Reservar uma mesa</a
-                  >
-                </button>
-                <div class="reservation__form form__checkbox">
+              <form action="#" class="reservation__form form">
+                <div class="form__fieldset">
+                  <label for="name" class="form__label">Nome *</label>
                   <input
-                    type="checkbox"
-                    name="termos de uso"
-                    id=""
-                    class="reservation__form input_box"
+                    type="text"
+                    id="name"
+                    placeholder="  Nome"
+                    class="form__input"
+                    required
                   />
-                  <label for="termos" class="reservation__form form__label"
-                    >Eu concordo com os termos de uso</label
+                  <label for="convidados" class="form__label"
+                    >Número de convidados *</label
                   >
+                  <input
+                    type="number"
+                    name="numero"
+                    id="convidados"
+                    placeholder="  1-8"
+                    class="form__input"
+                    required
+                  />
+                  <label for="data" class="form__label">Data & hora *</label>
+                  <input
+                    type="datetime-local"
+                    name="data"
+                    id="data"
+                    class="form__input"
+                  />
+                  <label for="email" class="form__label">Seu e-mail *</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="  email@email.com"
+                    class="form__input"
+                  />
+                  <button class="form__button">Reservar uma mesa</button>
+                  <div class="form__checkbox">
+                    <input type="checkbox" name="termos de uso" id="termos" />
+                    <label for="termos" class="form__label"
+                      >Eu concordo com os termos de uso</label
+                    >
+                  </div>
                 </div>
               </form>
             </div>
