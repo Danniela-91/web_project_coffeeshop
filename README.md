@@ -4,13 +4,13 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML e CSS
-- JavaScript
+- HTML5
+- CSS
 - Git e Github
 
 ## 💻 Projeto
 
-O projeto Coffee Shop, trás conceito de um café virtual interativo e prático.
+O projeto Coffee Shop trás o conceito de um café virtual, interativo e prático.
 
 ---
 
