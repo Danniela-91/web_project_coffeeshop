@@ -19,7 +19,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto Coffee Shop, trás o conceito de um café virtual interativo e prático.
+O projeto Coffee Shop, trás o conceito de café virtual interativo e prático.
 
 ---
 
