@@ -3,7 +3,7 @@
 Bootcamp de Desenvolvimento Web - TripleTen
 
 <p align="center">
-  <img alt="Projeto Triple Espresso - TripleTen" src="./images/coffee_shop.png" width="100%">
+  <img alt="Projeto Triple Espresso - TripleTen" src="./images/coffee_previa.png" width="100%">
 </p>
 
 - <a href="https://Danniela-91.github.io/web_project_coffeeshop/" target="_blank">Veja o projeto completo</a>
