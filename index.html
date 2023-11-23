@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="Portfólio de Daniela Tenório" />
@@ -7,9 +7,9 @@
     <meta name="author" content="Daniela Tenório" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Coffee Shop</title>
-    <link rel="shortcut icon" href="./favicon.ico" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
+
     <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="shortcut icon" href="./favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -70,45 +70,37 @@
       </header>
 
       <main class="content">
-        <section class="recipes" id="receitas">
-          <div class="recipes__content-info">
-            <h2 class="recipes__title">Receitas</h2>
-            <p class="recipes__subtitle">
-              Confira algumas receitas que coletamos para seu lanchinho caseiro:
-            </p>
-          </div>
-          <div class="recipes__videos">
-            <div class="recipes__list">
+        <section id="recipes" class="recipes">
+          <h2 class="recipes__title">Receitas</h2>
+          <p class="recipes__subtitle">
+            Confira algumas receitas que coletamos para seu lanchinho caseiro:
+          </p>
+          <ul class="recipes__videos">
+            <li class="recipes__video">
               <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/j6VlT_jUVPc?si=5zoSCXLPX7H9CYrQ"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
                 class="recipes__iframe"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc"
+                width="480"
+                height="273"
               ></iframe>
-              <div class="videos-caption">
-                <p>Receitas Aeropress</p>
-                <p>~5 min</p>
+              <div class="recipes__video-caption">
+                <p class="recipes__paragraph">Receita Aeropress</p>
+                <p class="recipes__paragraph">~5 min</p>
               </div>
-            </div>
-            <div class="recipes__list">
+            </li>
+            <li class="recipes__video">
               <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/st571DYYTR8?si=9QwfznEO2O9QLet7"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
                 class="recipes__iframe"
+                src="https://www.youtube.com/embed/st571DYYTR8"
+                width="480"
+                height="273"
               ></iframe>
-              <div class="videos-caption">
-                <p>Receita Prensa Francesa</p>
-                <p>~15 min</p>
+              <div class="recipes__video-caption">
+                <p class="recipes__paragraph">Receita Prensa Francesa</p>
+                <p class="recipes__paragraph">~15 min</p>
               </div>
-            </div>
-          </div>
+            </li>
+          </ul>
         </section>
         <section class="reservation" id="reservas">
           <div class="form">
@@ -162,11 +154,176 @@
             </div>
           </div>
         </section>
-        <section class="menu" id="menu"></section>
-        <section class="about" id="contatos"></section>
+        <section class="menu" id="menu">
+          <h2 class="menu__title">Menu</h2>
+          <p class="menu__subtitle">
+            Preparamos café a partir de grãos torrados localmente com
+            certificação Fairtrade e usamos xícaras biodegradáveis. Todos os
+            chás da nossa coleção custam US$ 2/xícara.
+          </p>
+          <ul class="menu__cards">
+            <li class="card">
+              <h3 class="card__title">Filtro</h3>
+
+              <ul class="card__list">
+                <li class="card__list-item">
+                  <p class="card__menu-item">Normal (350 ml)</p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$1</p>
+                </li>
+                <li class="card__list-item">
+                  <p class="card__menu-item">Grande (470 ml)</p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$1,25</p>
+                </li>
+                <li class="card__list-item">
+                  <p class="card__menu-item">Extra grande (590 ml)</p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$1,5</p>
+                </li>
+                <li class="card__list-item">
+                  <p class="card__menu-item">
+                    Tamanho do copo (700 ml descafeinado)
+                  </p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$1,75</p>
+                </li>
+                <li class="card__list-item">
+                  <p class="card__menu-item">Café Gelado (470 ml)</p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$1,25</p>
+                </li>
+              </ul>
+            </li>
+
+            <li class="card">
+              <h3 class="card__title">Expresso</h3>
+
+              <ul class="card__list">
+                <li class="card__list-item">
+                  <p class="card__menu-item">Macchiato</p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$2,25</p>
+                </li>
+                <li class="card__list-item">
+                  <p class="card__menu-item">Cortado</p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$2,25</p>
+                </li>
+                <li class="card__list-item">
+                  <p class="card__menu-item">Mocha</p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$3</p>
+                </li>
+                <li class="card__list-item">
+                  <p class="card__menu-item">
+                    Nascer do sol na Área da Baía (descafeinado)
+                  </p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$10</p>
+                </li>
+              </ul>
+            </li>
+
+            <li class="card">
+              <h3 class="card__title">Produtos de Padaria</h3>
+
+              <ul class="card__list">
+                <li class="card__list-item">
+                  <p class="card__menu-item">Croissant de Amêndoa</p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$2</p>
+                </li>
+                <li class="card__list-item">
+                  <p class="card__menu-item">Pão de Banana</p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$1,75</p>
+                </li>
+                <li class="card__list-item">
+                  <p class="card__menu-item">Torta de Limão</p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$3</p>
+                </li>
+                <li class="card__list-item">
+                  <p class="card__menu-item">Bolo Veludo Azul</p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$3,75</p>
+                </li>
+                <li class="card__list-item">
+                  <p class="card__menu-item">Cookie Web</p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$2</p>
+                </li>
+                <li class="card__list-item">
+                  <p class="card__menu-item">Baguete Fresco</p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$0,25</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        <section id="about" class="about">
+          <h2 class="about__title">Sobre a cafeteria</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Nosso café está localizado na Biblioteca Triple Peaks. Possui 6
+              mesas e Wi-Fi gratuito.
+            </p>
+            <p class="about__paragraph">
+              Nossa principal missão é manter nossos hóspedes confortáveis e
+              energizados.
+            </p>
+            <p class="about__paragraph">
+              Além disso, tentamos reduzir nosso impacto ambiental para não
+              vendermos copos descartáveis. Mas você pode comprar um de nossos
+              copos reutilizáveis!
+            </p>
+          </div>
+          <div class="about__circle"></div>
+        </section>
       </main>
+
       <footer class="footer">
-        <p></p>
+        <div class="footer__content">
+          <img
+            class="footer__logo"
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Logo Triple Expresso"
+          />
+          <div>
+            <h2 class="footer__social-heading">Mídia social</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <img
+                  src="./images/facebook_white.svg"
+                  class="footer__social-icon"
+                  alt="icone redondo e branco do Facebook"
+                />
+                <a
+                  href="https://www.facebook.com/profile.php?id=100093604784494"
+                  class="footer__social-link"
+                  target="_blank"
+                  >Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <img
+                  src="./images/instagram_white.svg"
+                  class="footer__social-icon"
+                  alt="icone redondo e branco do Instagram"
+                />
+                <a
+                  href="https://www.instagram.com/danniela.91"
+                  class="footer__social-link"
+                  target="_blank"
+                  >Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2023 Daniela Tenório</p>
       </footer>
     </div>
   </body>
