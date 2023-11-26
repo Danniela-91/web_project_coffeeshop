@@ -28,7 +28,7 @@
           />
           <ul class="nav__links">
             <li>
-              <a href="#receitas" class="nav__link">Receitas</a>
+              <a href="#recipes" class="nav__link">Receitas</a>
             </li>
             <li>
               <a href="#reservas" class="nav__link">Reservar uma mesa</a>
@@ -37,7 +37,7 @@
               <a href="#menu" class="nav__link">Menu</a>
             </li>
             <li>
-              <a href="#contatos" class="nav__link">Contatos</a>
+              <a href="#about" class="nav__link">Contatos</a>
             </li>
           </ul>
         </nav>
@@ -133,6 +133,7 @@
                     name="data"
                     id="data"
                     class="form__input"
+                    required
                   />
                   <label for="email" class="form__label">Seu e-mail *</label>
                   <input
@@ -141,13 +142,14 @@
                     id="email"
                     placeholder="  email@email.com"
                     class="form__input"
+                    required
                   />
+                  <label for="termos" class="form__label form__checkbox"
+                    >Eu concordo com os termos de uso</label
+                  >
                   <button class="form__button">Reservar uma mesa</button>
                   <div class="form__checkbox">
                     <input type="checkbox" name="termos de uso" id="termos" />
-                    <label for="termos" class="form__label"
-                      >Eu concordo com os termos de uso</label
-                    >
                   </div>
                 </div>
               </form>
