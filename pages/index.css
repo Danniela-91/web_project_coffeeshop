@@ -9,17 +9,3 @@
 @import url(../blocks/menu.css);
 @import url(../blocks/about.css);
 @import url(../blocks/footer.css);
-
-html {
-  scroll-behavior: smooth;
-}
-
-@font-face {
-  font-family: Inter;
-  src: url(/Inter-VariableFont_slnt\,wght.ttf);
-}
-
-@font-face {
-  font-family: Noto Serif;
-  src: url(/NotoSerif-VariableFont_wdth\,wght.ttf);
-}
